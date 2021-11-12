@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.12020223.chunk.css",
+    "main.js": "/static/js/main.938420d4.chunk.js",
+    "main.js.map": "/static/js/main.938420d4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3f15725e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3f15725e.js.map",
+    "static/js/2.61297098.chunk.js": "/static/js/2.61297098.chunk.js",
+    "static/js/2.61297098.chunk.js.map": "/static/js/2.61297098.chunk.js.map",
+    "static/js/3.32a64beb.chunk.js": "/static/js/3.32a64beb.chunk.js",
+    "static/js/3.32a64beb.chunk.js.map": "/static/js/3.32a64beb.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.12020223.chunk.css.map": "/static/css/main.12020223.chunk.css.map",
+    "static/js/2.61297098.chunk.js.LICENSE.txt": "/static/js/2.61297098.chunk.js.LICENSE.txt",
+    "static/media/BakedCake - Whitepaper.aed4b0fc.pdf": "/static/media/BakedCake - Whitepaper.aed4b0fc.pdf",
+    "static/media/Image1.ee61c08e.png": "/static/media/Image1.ee61c08e.png",
+    "static/media/Image2.ee61c08e.png": "/static/media/Image2.ee61c08e.png",
+    "static/media/Image4.ee61c08e.png": "/static/media/Image4.ee61c08e.png",
+    "static/media/Image6.ee61c08e.jpg": "/static/media/Image6.ee61c08e.jpg",
+    "static/media/audit.6fe81778.pdf": "/static/media/audit.6fe81778.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f15725e.js",
+    "static/js/2.61297098.chunk.js",
+    "static/css/main.12020223.chunk.css",
+    "static/js/main.938420d4.chunk.js"
+  ]
+}
