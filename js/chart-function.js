@@ -67,7 +67,7 @@
 
        /* Layout 2 Token Chat */
       var layout2colors = ['#0086ad', '#005582', '#97ebdb', '#00c2c7', '#daf8e3'];
-      var layout2labels = ["80% LIQUIDITY", "5% TEAM", "5% AUDITORS", "5% MARKETING", "5% AIRDROPS AND REFFERALS"];
+      var layout2labels = ["80% LIQUIDITY", "5% TEAM", "5% R&D", "5% MARKETING", "5% AIRDROPS & REFFERALS"];
       var layout2data = [80, 5, 5, 5, 5];
       var layout2data2 = [10, 20, 30, 30, 20];
       var bgColor = layout2colors;
