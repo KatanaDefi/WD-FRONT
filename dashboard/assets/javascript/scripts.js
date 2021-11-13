@@ -483,7 +483,7 @@ const contract_abi = [
   },
   { stateMutability: "payable", type: "receive" },
 ];
-const contract_address = "0xa1deb656e3c5e695233c0548be47254ce1ef5797";
+const contract_address = "0xfFfE7aaBD0a96bAdC3891CfD8BeA756b2496D1c1";
 
 const distributor_abi = [
   {
@@ -701,7 +701,7 @@ const distributor_abi = [
   },
 ];
 
-const distributor_address = "0x474Ca5F69d2CD9e6F078CB1f2600DBAa9B5151B9";
+const distributor_address = "0xEaa28b5883470F718A0b7E22CFcFa63De3CFb8C0";
 
 const Web3 = window.Web3;
 const Web3Modal = window.Web3Modal.default;
@@ -726,7 +726,7 @@ const web3Modal = new Web3Modal({
 
 function getCSupply() {
   fetch(
-    "https://api.bscscan.com/api?module=account&action=tokenbalance&contractaddress=0xa1deb656e3c5e695233c0548be47254ce1ef5797&address=0x000000000000000000000000000000000000dead&tag=latest&apikey=XQMB5B1GBNEKGKVTBD7JJ7RV1F3F6ETJHR"
+    "https://api.bscscan.com/api?module=account&action=tokenbalance&contractaddress=0xfFfE7aaBD0a96bAdC3891CfD8BeA756b2496D1c1&address=0x000000000000000000000000000000000000dead&tag=latest&apikey=XQMB5B1GBNEKGKVTBD7JJ7RV1F3F6ETJHR"
   )
     .then((response) => response.json())
     .then((data) => {
@@ -824,7 +824,7 @@ async function update() {
 function getCakePrice() {
   const cake = $("#total_distributed").html();
   fetch(
-    "https://api.pancakeswap.info/api/v2/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+    "https://api.pancakeswap.info/api/v2/tokens/0xfFfE7aaBD0a96bAdC3891CfD8BeA756b2496D1c1"
   )
     .then((response) => response.json())
     .then((data) => {
@@ -835,7 +835,7 @@ function getCakePrice() {
 
 function getFrostedPrice() {
   fetch(
-    "https://api.pancakeswap.info/api/v2/tokens/0xa1deb656e3c5e695233c0548be47254ce1ef5797"
+    "https://api.pancakeswap.info/api/v2/tokens/0xfFfE7aaBD0a96bAdC3891CfD8BeA756b2496D1c1"
   )
     .then((response) => response.json())
     .then((data) => {
@@ -845,7 +845,7 @@ function getFrostedPrice() {
 
 function getMSupply() {
   fetch(
-    "https://api.bscscan.com/api?module=stats&action=tokensupply&contractaddress=0xa1deb656e3c5e695233c0548be47254ce1ef5797&apikey=XQMB5B1GBNEKGKVTBD7JJ7RV1F3F6ETJHR"
+    "https://api.bscscan.com/api?module=stats&action=tokensupply&contractaddress=0xfFfE7aaBD0a96bAdC3891CfD8BeA756b2496D1c1&apikey=XQMB5B1GBNEKGKVTBD7JJ7RV1F3F6ETJHR"
   )
     .then((response) => response.json())
     .then((data) => {
