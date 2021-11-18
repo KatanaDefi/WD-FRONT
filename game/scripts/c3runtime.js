@@ -4475,7 +4475,7 @@ self.C3_ExpressionFuncs = [
 		() => 9,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => (and("HEALTH ", v0.GetValue()) + "%");
+			return () => (and("HP ", v0.GetValue()) + "%");
 		},
 		() => "Controllers",
 		() => "R",
