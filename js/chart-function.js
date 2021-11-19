@@ -66,10 +66,10 @@
       legendHolder.innerHTML = legend;
 
        /* Layout 2 Token Chat */
-      var layout2colors = ['#0086ad', '#005582', '#97ebdb', '#00c2c7', '#daf8e3'];
-      var layout2labels = ["80% LIQUIDITY", "5% TEAM", "5% R&D", "5% MARKETING", "5% AIRDROPS & REFFERALS"];
-      var layout2data = [80, 5, 5, 5, 5];
-      var layout2data2 = [10, 20, 30, 30, 20];
+      var layout2colors = ['#0086ad', '#005582', '#97ebdb', '#00c2c7'];
+      var layout2labels = ["70% LIQUIDITY", "10% TEAM", "10% MARKETING", "10% BUYBACK"];
+      var layout2data = [70, 10, 10, 10];
+      var layout2data2 = [10, 20, 30, 20];
       var bgColor = layout2colors;
 
       var layout2dataChart = {
