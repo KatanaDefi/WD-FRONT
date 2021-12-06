@@ -63,7 +63,7 @@ async function onConnect() {
     if (networkId == 97) {
         document.getElementById("network").innerHTML = "B";
     } else if (networkId == 56) {
-        document.getElementById("network").innerHTML = "BINANCE MAINNET";
+        document.getElementById("network").innerHTML = "MAINNET";
     }
     connectToContract();
 
@@ -125,7 +125,7 @@ async function connectToContract() {
         contractAddress = "0xFfB337472155dD51a2f5c8DF6bbebfA27C8633E9";
         hrefBscscan = "https://testnet.bscscan.com"
     } else if (networkId === 56) {
-        document.getElementById("network").innerHTML = "BINANCE MAINNET";
+        document.getElementById("network").innerHTML = "MAINNET";
         web3 = new Web3("https://bsc-dataseed.binance.org/");
         contractAddress = "0x2cC324E137F8AE23848F0cc1305920C1EcB060a3";
         hrefBscscan = "https://bscscan.com"
