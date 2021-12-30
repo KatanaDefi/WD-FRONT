@@ -68,8 +68,8 @@
        /* Layout 2 Token Chat */
       var layout2colors = ['#0086ad', '#005582', '#97ebdb', '#00c2c7', '00ad7e'];
       var layout2labels = ["60% LIQUIDITY", "10% TEAM", "10% MARKETING", "10% BUYBACK", "10% COMMUNITY"];
-      var layout2data = [60, 10, 10, 10, 10];
-      var layout2data2 = [10, 20, 30, 20, 20];
+      var layout2data = [60, 10, 10, 10];
+      var layout2data2 = [10, 20, 30, 20];
       var bgColor = layout2colors;
 
       var layout2dataChart = {
