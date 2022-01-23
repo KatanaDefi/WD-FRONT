@@ -483,7 +483,7 @@ const contract_abi = [
   },
   { stateMutability: "payable", type: "receive" },
 ];
-const contract_address = "0xfbde2dd798350dcf3991259abd1503e2cf1b9513";
+const contract_address = "0xA078EB7c1803bd54ea4bde6Cd8822500341E7618";
 
 const distributor_abi = [
   {
@@ -726,7 +726,7 @@ const web3Modal = new Web3Modal({
 
 function getCSupply() {
   fetch(
-    "https://api.bscscan.com/api?module=account&action=tokenbalance&contractaddress=0xfbde2dd798350dcf3991259abd1503e2cf1b9513&address=0x000000000000000000000000000000000000dead&tag=latest&apikey=XQMB5B1GBNEKGKVTBD7JJ7RV1F3F6ETJHR"
+    "https://api.bscscan.com/api?module=account&action=tokenbalance&contractaddress=0xA078EB7c1803bd54ea4bde6Cd8822500341E7618&address=0x000000000000000000000000000000000000dead&tag=latest&apikey=XQMB5B1GBNEKGKVTBD7JJ7RV1F3F6ETJHR"
   )
     .then((response) => response.json())
     .then((data) => {
@@ -824,7 +824,7 @@ async function update() {
 function getCakePrice() {
   const cake = $("#total_distributed").html();
   fetch(
-    "https://api.pancakeswap.info/api/v2/tokens/0xfbde2dd798350dcf3991259abd1503e2cf1b9513"
+    "https://api.pancakeswap.info/api/v2/tokens/0xA078EB7c1803bd54ea4bde6Cd8822500341E7618"
   )
     .then((response) => response.json())
     .then((data) => {
@@ -835,7 +835,7 @@ function getCakePrice() {
 
 function getFrostedPrice() {
   fetch(
-    "https://api.pancakeswap.info/api/v2/tokens/0xfbde2dd798350dcf3991259abd1503e2cf1b9513"
+    "https://api.pancakeswap.info/api/v2/tokens/0xA078EB7c1803bd54ea4bde6Cd8822500341E7618"
   )
     .then((response) => response.json())
     .then((data) => {
@@ -845,7 +845,7 @@ function getFrostedPrice() {
 
 function getMSupply() {
   fetch(
-    "https://api.bscscan.com/api?module=stats&action=tokensupply&contractaddress=0xfbde2dd798350dcf3991259abd1503e2cf1b9513&apikey=XQMB5B1GBNEKGKVTBD7JJ7RV1F3F6ETJHR"
+    "https://api.bscscan.com/api?module=stats&action=tokensupply&contractaddress=0xA078EB7c1803bd54ea4bde6Cd8822500341E7618&apikey=XQMB5B1GBNEKGKVTBD7JJ7RV1F3F6ETJHR"
   )
     .then((response) => response.json())
     .then((data) => {
